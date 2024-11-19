@@ -9,7 +9,9 @@ sudo apt update
 sudo apt install -y software-properties-common git
 sudo add-apt-repository -y ppa:ondrej/php
 sudo apt update
-sudo apt install -y apache2 mysql-server php8.1 php8.1-gd php8.1-mysql php8.1-curl php8.1-mbstring php8.1-xml php8.1-xmlrpc
+
+# Install required packages
+sudo apt install -y apache2 mysql-server php7.4 php7.4-gd php7.4-mysql php7.4-curl php7.4-mbstring php7.4-xml php7.4-xmlrpc
 
 # Secure MySQL installation
 sudo mysql_secure_installation
